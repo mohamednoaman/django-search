@@ -1,0 +1,16 @@
+<h1 style="color:#01024e ">Dawak</h1>
+<body style="background-color:#61f2f5"></body>
+
+
+<h3 style="color:#da4302"> Search Medicine Name :	</h3>			
+<form action="{% url 'search_results' %}" method="get">
+  <input name="q" type="text" placeholder="Search Medicine...">
+  <br><br>
+  <select class="input search-categories">
+								<option value="0">All Categories</option>
+								<option value="1">Medicines</option>
+								<option value="1">Alternatives</option>
+							</select>
+							<button class="search-btn">  Search <i class="fa fa-search"></i></button>
+</form>
+

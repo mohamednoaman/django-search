@@ -1,0 +1,11 @@
+<h2>Search Results</h1>
+<body style="background-color:#61f2f5"></body>
+
+<ul>
+  {% for Medicine in object_list %}
+    <li style="color:#af0404"> Medicine Name : <h3 style="color:#ff0000">{{ Medicine.title }}</h3></li>
+
+
+    <li style="color:#af0404"> Price : <h3 style="color:#ff0000">{{ Medicine.price }} EGP </h3></li>
+  {% endfor %}
+</ul>

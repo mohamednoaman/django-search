@@ -1,6 +1,6 @@
 # django-search
 django search
-A simple Django queryset based on William Vincent tutorial:(https://wsvincent.com/django-search/)
+A simple Django queryset 
 Using:
 - Python 3.6
 - Django 2.2.3
